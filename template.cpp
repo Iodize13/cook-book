@@ -11,5 +11,7 @@ void sol() {
 int32_t main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
+    clock_t HZA = clock();
     sol();
+    cerr << fixed << (double)(clock() - HZA) / CLOCK_PER_SEC << setprecision(5) << '\n';
 }
