@@ -8,7 +8,7 @@ using namespace std;
 void sol() {
 }
 
-int32_t main() {
+int32_t main(int32_t argc, char* argv[]) {
     ios::sync_with_stdio(0);
     cin.tie(0);
     clock_t HZA = clock();
