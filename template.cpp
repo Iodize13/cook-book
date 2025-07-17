@@ -13,5 +13,5 @@ int32_t main(int32_t argc, char* argv[]) {
     cin.tie(0);
     clock_t HZA = clock();
     sol();
-    cerr << fixed << (double)(clock() - HZA) / CLOCK_PER_SEC << setprecision(5) << '\n';
+    cerr << fixed << (double)(clock() - HZA) / CLOCKS_PER_SEC << setprecision(5) << '\n';
 }
