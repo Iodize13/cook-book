@@ -36,5 +36,4 @@ int32_t main(int32_t argc, char* argv[]) {
 }
 
 void sol() {
-    cout << rand(0, 10) << '\n';
 }
