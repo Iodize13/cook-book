@@ -1,17 +1,40 @@
 #include<bits/stdc++.h>
+
+using namespace std;
+#define fi first
+#define se second
 #define int long long
 #define ll long long
 #define sz(x) (int)(x).size()
+#define all(x) (x).begin(), (x).end()
+#define rep(i, a, b) for(int i = a; i < (b); ++i)
 
-using namespace std;
+#ifdef LOCAL
+#define dbg(...) {cerr << "LINE " << __LINE__ << " -> " << #__VA_ARGS__ << ": " << __VA_ARGS__ << endl;}
+#else
+#define dbg(...) 42
+#endif
 
-void sol() {
+typedef vector<int> vi;
+typedef pair<int, int> pii;
+
+// #pragma GCC optimize("Ofast")
+// #pragma GCC target("avx2")
+// #pragma GCC optimize("O3,unroll-loops")
+
+int rand(int a, int b) {
+    return a + rand() % (b - a + 1);
 }
+
+void sol();
 
 int32_t main(int32_t argc, char* argv[]) {
     ios::sync_with_stdio(0);
     cin.tie(0);
-    clock_t HZA = clock();
+    srand(atoi(argv[1]));
     sol();
-    cerr << fixed << (double)(clock() - HZA) / CLOCKS_PER_SEC << setprecision(5) << '\n';
+}
+
+void sol() {
+    cout << rand(0, 10) << '\n';
 }
