@@ -1,4 +1,23 @@
 #include<bits/stdc++.h>
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <numeric>
+#include <set>
+#include <map>
+#include <unordered_set>
+#include <unordered_map>
+#include <queue>
+#include <deque>
+#include <stack>
+#include <cstdint>
+#include <ctime>
+#include <cassert>
+#include <string>
+#include <cstring>
+#include <bitset>
+#include <array>
+#include <cmath>
 
 using namespace std;
 #define fi first
